@@ -1,4 +1,4 @@
-const urlbase = "https://server-biwc.onrender.com";
+const urlbase = "http://localhost:3030";
 // Variável usada para manter os dados do usuário logado
 // A função carregarLogin verifica se o usuário está logado e carrega na variável usuarioLogado
 let usuarioLogado = undefined;

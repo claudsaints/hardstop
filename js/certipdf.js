@@ -1,4 +1,4 @@
-
+function baixar(){
     const item = document.querySelector(".conteudo");
     var opt = {
         margin: 0,
@@ -12,3 +12,4 @@
     };
     
     html2pdf().set(opt).from(item).save();
+}
